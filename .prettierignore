@@ -1,0 +1,26 @@
+node_modules
+package-lock.json
+dist
+build
+coverage
+.env
+public/uploads
+logs
+*.log
+
+# Ignore editor settings
+.vscode/
+.idea/
+.DS_Store
+
+# Ignore test snapshots
+__snapshots__
+
+# Ignore database dumps
+*.sql
+
+# Ignore API docs (if generated)
+apidoc/
+
+# Ignore generated GraphQL files
+schema.graphql
