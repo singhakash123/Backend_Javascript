@@ -8,7 +8,8 @@
          -- In a package.json file, "type": "module" specifies that the code in the project uses ECMAScript modules (ESM) syntax (e.g., import/export) instead of CommonJS.
 ## script : 
       "dev" : "node index.js"
-             
+       "dev" : "nodemon -r dotenv/config --exec node src/index.js"  
+       
 ## npm and npm init :
         - npm : npm (Node Package Manager) is a tool that comes with Node.js, used for managing packages (libraries or modules) in JavaScript. It helps developers install, update, and manage dependencies for their projects efficiently.
 
@@ -51,7 +52,7 @@
 
      // note : git track only files not folder    
      // git status use to check track 
-     // .gitkeep  , it is use to keep empty file in the git 
+     // .gitkeep  , it is use to keep empty folder in the git so that git can track empty folder 
 
 ## mrkdown 
    ## inside the src folder
@@ -59,7 +60,7 @@
  
 src 
     | - index.js (this file is use to connect database)
-    | - app.js 
+    | - app.js ()
     | - constant.js
 
     | - models : exp -
